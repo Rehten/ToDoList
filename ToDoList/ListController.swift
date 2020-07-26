@@ -50,4 +50,8 @@ class ListController: UITableViewController {
             (segue.destination as! ToDoController).todo = todo
         }
     }
+
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
+    }
 }

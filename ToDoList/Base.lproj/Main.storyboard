@@ -74,6 +74,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textChangingAction:" destination="KqZ-so-fYf" eventType="editingDidEnd" id="2Hg-tU-grp"/>
+                                </connections>
                             </textField>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Aep-pM-9KR">
                                 <rect key="frame" x="20" y="178" width="374" height="208"/>
@@ -82,6 +85,9 @@
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0VI-cZ-Kxb">
                                 <rect key="frame" x="344" y="126" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="switchAction:" destination="KqZ-so-fYf" eventType="valueChanged" id="fwC-J2-sSG"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -90,9 +96,15 @@
                     <navigationItem key="navigationItem" id="0xk-MB-P7C">
                         <barButtonItem key="rightBarButtonItem" systemItem="save" id="dJc-02-UiW">
                             <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="pushSaveButton:" destination="KqZ-so-fYf" id="cfW-9z-B9i"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="buttonSave" destination="dJc-02-UiW" id="OJy-CN-Hhm"/>
+                        <outlet property="datePicker" destination="Aep-pM-9KR" id="NU3-ys-j7Y"/>
+                        <outlet property="switchNotification" destination="0VI-cZ-Kxb" id="Wwg-Mw-60U"/>
                         <outlet property="textField" destination="pAI-TV-3Y4" id="pQR-Jx-A5s"/>
                     </connections>
                 </viewController>
