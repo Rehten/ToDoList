@@ -16,12 +16,21 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="Default layout">
+    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="Add base model">
+      <change afterPath="$PROJECT_DIR$/ToDoList/ListController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Model.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595758656374</updated>
-      <workItem from="1595758658073" duration="1680000" />
+      <workItem from="1595758658073" duration="2624000" />
     </task>
     <task id="LOCAL-00001" summary="Default layout">
       <created>1595773043692</created>
@@ -87,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595773043692</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add base model">
+      <created>1595774677404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595774677404</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,7 +114,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -106,9 +134,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Default layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Default layout" />
+    <MESSAGE value="Add base model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add base model" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1595775557221">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1680.1050@0.0.1680.1050" timestamp="1595775557221" />
     <state x="711" y="429" key="Github.ShareDialog" timestamp="1595758703733">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -117,29 +150,29 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="609" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595758710207" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1595772740713">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1595775557535">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595772740713" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1595772740712">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595775557535" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1595775557533">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595772740712" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1595772740711">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595775557533" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1595775557532">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595772740711" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1595772740713">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595775557532" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1595775557534">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595772740713" />
-    <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1595773843024">
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595775557534" />
+    <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1595775101732">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="600" height="400" key="NewXcodeProjectWizard/0.0.1680.1050@0.0.1680.1050" timestamp="1595773843024" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595773045748">
+    <state width="600" height="400" key="NewXcodeProjectWizard/0.0.1680.1050@0.0.1680.1050" timestamp="1595775101732" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595774678801">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595773045748" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595774678801" />
   </component>
 </project>

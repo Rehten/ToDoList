@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Root View Controller-->
+        <!--ToDo List-->
         <scene sceneID="hNo-LS-b4N">
             <objects>
-                <tableViewController id="jp0-xC-I0i" sceneMemberID="viewController">
+                <tableViewController id="jp0-xC-I0i" customClass="ListController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Tf-vO-fCa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -46,7 +46,13 @@
                             <outlet property="delegate" destination="jp0-xC-I0i" id="Ncd-V5-JvN"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Leh-Cq-ZFg"/>
+                    <navigationItem key="navigationItem" title="ToDo List" id="Leh-Cq-ZFg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="hyP-pW-spG">
+                            <connections>
+                                <action selector="pushAddList:" destination="jp0-xC-I0i" id="6rN-e4-TB9"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="KqZ-so-fYf" kind="show" id="CS3-Og-d3S"/>
                     </connections>

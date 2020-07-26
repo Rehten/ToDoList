@@ -34,6 +34,8 @@ func getNextUID() -> Int {
             nextUID = todo.UID + 1
         }
     }
+
+    return nextUID
 }
 
 class Model: NSObject {
