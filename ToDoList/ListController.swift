@@ -38,4 +38,16 @@ class ListController: UITableViewController {
 
         return cell
     }
+
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "toDoSegue", sender: self)
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toDoSegue" {
+            let todo = dataArray[tableView.indexPathForSelectedRow!.row]
+
+            (segue.destination as! ToDoController).todo = todo
+        }
+    }
 }

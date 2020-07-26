@@ -54,17 +54,17 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="KqZ-so-fYf" kind="show" id="CS3-Og-d3S"/>
+                        <segue destination="KqZ-so-fYf" kind="show" identifier="toDoSegue" id="CS3-Og-d3S"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yfZ-xX-QH6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="709" y="73"/>
         </scene>
-        <!--View Controller-->
+        <!--To Do Controller-->
         <scene sceneID="Xh4-aO-8Hd">
             <objects>
-                <viewController id="KqZ-so-fYf" sceneMemberID="viewController">
+                <viewController id="KqZ-so-fYf" customClass="ToDoController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o81-DW-vdk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,10 +92,13 @@
                             <color key="tintColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="textField" destination="pAI-TV-3Y4" id="pQR-Jx-A5s"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RKh-GX-dyk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1560.8695652173915" y="77.678571428571431"/>
+            <point key="canvasLocation" x="1546" y="73"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="6k7-Tj-1J2">
