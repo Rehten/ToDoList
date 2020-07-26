@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="">
+    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="Default layout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Base.lproj/Main.storyboard" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +78,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595758656374</updated>
-      <workItem from="1595758658073" duration="336000" />
+      <workItem from="1595758658073" duration="1680000" />
     </task>
+    <task id="LOCAL-00001" summary="Default layout">
+      <created>1595773043692</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595773043692</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +103,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Default layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Default layout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="429" key="Github.ShareDialog" timestamp="1595758703733">
@@ -122,5 +133,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595772740713" />
+    <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1595773843024">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="600" height="400" key="NewXcodeProjectWizard/0.0.1680.1050@0.0.1680.1050" timestamp="1595773843024" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595773045748">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595773045748" />
   </component>
 </project>

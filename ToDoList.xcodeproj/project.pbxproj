@@ -13,6 +13,7 @@
 		6322B514FBF04831D7AC256E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6322BF7944E31C2D8A13B553 /* Assets.xcassets */; };
 		6322B70B837BD403542E32EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6322B76CED3B826EAA795A5C /* Main.storyboard */; };
 		6322BDF1F7B7BE9ECB3AE45E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322BB3C6E388ECBBD853EC7 /* AppDelegate.swift */; };
+		6322BF7F048D883CD054FCE4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6322BAC7BDF957C4F79ECA5D /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		6322B3EC479B3F88A2F7E777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6322B6B3ED820FC35835815A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6322B8E4FBA2C640DD7743FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6322BAC7BDF957C4F79ECA5D /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		6322BB3C6E388ECBBD853EC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6322BEDE92997DA5CCBF0062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		6322BF7944E31C2D8A13B553 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 				6322B068FC0C52BD83154C80 /* SceneDelegate.swift */,
 				6322B6B3ED820FC35835815A /* ViewController.swift */,
 				6322B76CED3B826EAA795A5C /* Main.storyboard */,
+				6322BAC7BDF957C4F79ECA5D /* Model.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				6322BDF1F7B7BE9ECB3AE45E /* AppDelegate.swift in Sources */,
 				6322B2240ADC3FE25082A3E4 /* SceneDelegate.swift in Sources */,
 				6322B21589E8A616A296695F /* ViewController.swift in Sources */,
+				6322BF7F048D883CD054FCE4 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
