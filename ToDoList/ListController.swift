@@ -33,6 +33,8 @@ class ListController: UITableViewController {
         cell.textLabel?.text = todo.name
         if todo.isNotification {
             cell.detailTextLabel?.text = todo.dateString
+        } else {
+            cell.detailTextLabel?.text = ""
         }
 
         return cell
