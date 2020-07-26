@@ -25,9 +25,11 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="Transfer data between controllers">
+    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="Modify ToDo Detail view">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/ListController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ListController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Model.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ToDoList/ToDoController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ToDoController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_C764EB2D-6CAE-41D0-86F7-41E6B5A275B8" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_40F9B62D-637D-4E14-AFAB-6077BB493645" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -108,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595797200165</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modify ToDo Detail view">
+      <created>1595800786679</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595800786679</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,17 +150,18 @@
     <MESSAGE value="Default layout" />
     <MESSAGE value="Add base model" />
     <MESSAGE value="Transfer data between controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transfer data between controllers" />
+    <MESSAGE value="Modify ToDo Detail view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify ToDo Detail view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="168" y="94" key="DiffContextDialog" timestamp="1595776799689">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="168" y="94" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595776799689" />
-    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1595775557221">
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1595803528095">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1680.1050@0.0.1680.1050" timestamp="1595775557221" />
+    <state x="0" y="0" key="FileDocumentManager.FileCacheConflict/0.0.1680.1050@0.0.1680.1050" timestamp="1595803528095" />
     <state x="711" y="429" key="Github.ShareDialog" timestamp="1595758703733">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -160,22 +170,22 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="609" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595758710207" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1595800459284">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1595803892887">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595800459284" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1595800459282">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595803892887" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1595803892886">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595800459282" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1595800459281">
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595803892886" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1595803892885">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595800459281" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1595800459283">
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595803892885" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1595803892887">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595800459283" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595803892887" />
     <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1595796540487">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -184,9 +194,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="608" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595776803041" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595797201971">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1595800788411">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595797201971" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1595800788411" />
   </component>
 </project>

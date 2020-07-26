@@ -13,6 +13,13 @@ class ToDo {
 
     var name: String
     var date: Date
+    var dateString: String {
+        let df = DateFormatter()
+
+        df.dateFormat = "dd.MM.yy H:mi"
+
+        return df.string(from: date)
+   }
     var isNotification: Bool
 
     init(name: String, date: Date, isNotification: Bool) {

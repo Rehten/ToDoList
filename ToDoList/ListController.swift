@@ -10,11 +10,7 @@ import UIKit
 
 class ListController: UITableViewController {
     @IBAction func pushAddList(_ sender: Any) {
-        let newToDo = ToDo(name: "New ToDo", date: Date(), isNotification: false)
-
-        dataArray.append(newToDo)
-
-        tableView.reloadData()
+        performSegue(withIdentifier: "toDoSegue", sender: self)
     }
     
     override func viewDidLoad() {
@@ -35,6 +31,9 @@ class ListController: UITableViewController {
         let todo = dataArray[indexPath.row]
 
         cell.textLabel?.text = todo.name
+        if todo.isNotification {
+            cell.detailTextLabel?.text = todo.dateString
+        }
 
         return cell
     }
@@ -45,9 +44,12 @@ class ListController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDoSegue" {
-            let todo = dataArray[tableView.indexPathForSelectedRow!.row]
-
-            (segue.destination as! ToDoController).todo = todo
+            if tableView.indexPathForSelectedRow != nil {
+                let todo = dataArray[tableView.indexPathForSelectedRow!.row]
+                (segue.destination as! ToDoController).todo = todo
+            } else {
+                (segue.destination as! ToDoController).todo = nil
+            }
         }
     }
 

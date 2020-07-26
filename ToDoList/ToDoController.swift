@@ -50,8 +50,6 @@ class ToDoController: UIViewController {
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-
         if let todo = todo {
             textField.text = todo.name
             switchNotification.isOn = todo.isNotification
