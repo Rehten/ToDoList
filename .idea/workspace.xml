@@ -25,10 +25,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="save data in local storage">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Model.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToDoList/ToDoController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ToDoController.swift" afterDir="false" />
+    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="add notifications">
+      <change beforePath="$PROJECT_DIR$/ToDoList/ListController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ListController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,7 @@
       <updated>1595758656374</updated>
       <workItem from="1595758658073" duration="2624000" />
       <workItem from="1595876756823" duration="760000" />
-      <workItem from="1596200083858" duration="3407000" />
+      <workItem from="1596200083858" duration="3708000" />
     </task>
     <task id="LOCAL-00001" summary="Default layout">
       <created>1595773043692</created>
@@ -138,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596487361058</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add notifications">
+      <created>1596489595722</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1596489595722</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +181,8 @@
     <MESSAGE value="Advanced add option" />
     <MESSAGE value="bugfix" />
     <MESSAGE value="save data in local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="save data in local storage" />
+    <MESSAGE value="add notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="add notifications" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595835428088">
@@ -199,25 +205,25 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="609" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595758710207" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596489193980">
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596489885874">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596489193980" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885874" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595852538957" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596489193979">
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596489885872">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596489193979" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885872" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595852538955" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596489193979">
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596489885871">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596489193979" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885871" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595852538955" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596489193980">
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596489885873">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596489193980" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885873" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595852538956" />
     <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1595796540487">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -227,10 +233,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="608" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595776803041" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596487362660">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596489597020">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596487362660" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596489597020" />
     <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1596488913263">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

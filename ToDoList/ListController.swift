@@ -33,6 +33,12 @@ class ListController: UITableViewController {
         cell.textLabel?.text = todo.name
         if todo.isNotification {
             cell.detailTextLabel?.text = todo.dateString
+
+            if todo.isDateActual {
+                cell.detailTextLabel?.textColor = .green
+            } else {
+                cell.detailTextLabel?.textColor = .red
+            }
         } else {
             cell.detailTextLabel?.text = ""
         }
@@ -57,5 +63,16 @@ class ListController: UITableViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()
+    }
+
+    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            dataArray[indexPath.row].isNotification = false
+            dataArray.remove(at: indexPath.row)
+
+            saveData()
+
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
     }
 }
