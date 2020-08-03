@@ -45,6 +45,8 @@ class ToDoController: UIViewController {
             dataArray.insert(todo!, at: 0)
         }
 
+        saveData()
+
         navigationController?.popToRootViewController(animated: true)
     }
     

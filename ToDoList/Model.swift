@@ -29,6 +29,20 @@ class ToDo {
 
         UID = getNextUID()
     }
+
+    init(dictionary: [String: Any]) {
+        self.name = dictionary["name"] as! String
+        self.date = dictionary["date"] as! Date
+        self.isNotification = dictionary["isNotification"] as! Bool
+
+        UID = dictionary["UID"] as! Int
+    }
+
+    func getDictionaryForSave() -> [String: Any] {
+        let dict = ["name": name, "date": date, "isNotification": isNotification, "UID": UID] as [String: Any]
+
+        return dict
+    }
 }
 
 var dataArray: [ToDo] = []
@@ -43,6 +57,29 @@ func getNextUID() -> Int {
     }
 
     return nextUID
+}
+
+func saveData() {
+    var arrayForSave: [[String: Any]] = []
+
+    for todo in dataArray {
+        arrayForSave.append(todo.getDictionaryForSave())
+    }
+
+    UserDefaults.standard.set(arrayForSave, forKey: "data")
+    UserDefaults.standard.synchronize()
+}
+
+func loadData() {
+    let loadedDate = UserDefaults.standard.object(forKey: "data") as! [[String: Any]]?
+
+    if let loaded = loadedDate {
+        for dictionary in loaded {
+            let todo = ToDo(dictionary: dictionary)
+
+            dataArray.append(todo)
+        }
+    }
 }
 
 class Model: NSObject {
