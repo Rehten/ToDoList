@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ToDo {
     var UID: Int
 
     var name: String
-    var date: Date
+    var date: Date {
+        didSet {
+            setNotification()
+        }
+    }
+    var isDateActual: Bool {
+        get {
+            return date.timeIntervalSinceNow <= 0 ? false : true
+        }
+    }
     var dateString: String {
         let df = DateFormatter()
 
@@ -20,7 +30,11 @@ class ToDo {
 
         return df.string(from: date)
    }
-    var isNotification: Bool
+    var isNotification: Bool {
+        didSet {
+            setNotification()
+        }
+    }
 
     init(name: String, date: Date, isNotification: Bool) {
         self.name = name
@@ -36,12 +50,36 @@ class ToDo {
         self.isNotification = dictionary["isNotification"] as! Bool
 
         UID = dictionary["UID"] as! Int
+
+        setNotification()
     }
 
     func getDictionaryForSave() -> [String: Any] {
         let dict = ["name": name, "date": date, "isNotification": isNotification, "UID": UID] as [String: Any]
 
         return dict
+    }
+
+    func setNotification() {
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [String(UID)])
+
+        if isNotification && isDateActual {
+            let content = UNMutableNotificationContent()
+
+            content.body = name
+            content.sound = UNNotificationSound.default
+
+            let timeInterval = date.timeIntervalSinceNow
+            let trigger = UNTimeIntervalNotificationTrigger(timeInterval: timeInterval, repeats: false)
+
+            UNUserNotificationCenter.current().add(
+                    UNNotificationRequest(
+                            identifier: String(UID),
+                            content: content,
+                            trigger: trigger
+                    )
+            )
+        }
     }
 }
 

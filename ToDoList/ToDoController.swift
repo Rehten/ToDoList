@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class ToDoController: UIViewController {
     var todo: ToDo?
@@ -19,20 +20,27 @@ class ToDoController: UIViewController {
             buttonSave.isEnabled = true
         }
     }
-    
+
     @IBOutlet weak var switchNotification: UISwitch!
     @IBAction func switchAction(_ sender: Any) {
         if switchNotification.isOn {
             datePicker.isEnabled = true
             datePicker.alpha = 1
+
+            UNUserNotificationCenter.current().requestAuthorization(
+                    options: [UNAuthorizationOptions.badge, UNAuthorizationOptions.sound, UNAuthorizationOptions.alert],
+                    completionHandler: {
+                        (bool, error) in
+                    }
+            )
         } else {
             datePicker.isEnabled = false
             datePicker.alpha = 0
         }
     }
-    
+
     @IBOutlet weak var datePicker: UIDatePicker!
-    
+
     @IBOutlet weak var buttonSave: UIBarButtonItem!
     @IBAction func pushSaveButton(_ sender: Any) {
         if let todo = todo {
@@ -49,8 +57,8 @@ class ToDoController: UIViewController {
 
         navigationController?.popToRootViewController(animated: true)
     }
-    
-    
+
+
     override func viewDidLoad() {
         if let todo = todo {
             textField.text = todo.name
