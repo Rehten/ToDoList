@@ -106,6 +106,8 @@ func saveData() {
 
     UserDefaults.standard.set(arrayForSave, forKey: "data")
     UserDefaults.standard.synchronize()
+
+    UIApplication.shared.applicationIconBadgeNumber = dataArray.count
 }
 
 func loadData() {
@@ -118,6 +120,8 @@ func loadData() {
             dataArray.append(todo)
         }
     }
+
+    UIApplication.shared.applicationIconBadgeNumber = dataArray.count
 }
 
 class Model: NSObject {

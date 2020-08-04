@@ -25,8 +25,51 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="add notifications">
-      <change beforePath="$PROJECT_DIR$/ToDoList/ListController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/ListController.swift" afterDir="false" />
+    <list default="true" id="68868d14-ccab-4a39-a637-e1bc12b323dc" name="Default Changelist" comment="add delete notifications and items">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ToDoList.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList.xcodeproj/project.xcworkspace/xcuserdata/AASysoev.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList.xcodeproj/project.xcworkspace/xcuserdata/AASysoev.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/172.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/196.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/88.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToDoList/Model.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ToDoList/Model.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +128,8 @@
       <updated>1595758656374</updated>
       <workItem from="1595758658073" duration="2624000" />
       <workItem from="1595876756823" duration="760000" />
-      <workItem from="1596200083858" duration="3708000" />
+      <workItem from="1596200083858" duration="4076000" />
+      <workItem from="1596572537474" duration="450000" />
     </task>
     <task id="LOCAL-00001" summary="Default layout">
       <created>1595773043692</created>
@@ -143,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596489595722</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add delete notifications and items">
+      <created>1596490102796</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596490102796</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +233,8 @@
     <MESSAGE value="bugfix" />
     <MESSAGE value="save data in local storage" />
     <MESSAGE value="add notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="add notifications" />
+    <MESSAGE value="add delete notifications and items" />
+    <option name="LAST_COMMIT_MESSAGE" value="add delete notifications and items" />
   </component>
   <component name="WindowStateProjectService">
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595835428088">
@@ -205,26 +257,30 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="609" y="237" key="Github.UntrackedFilesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595758710207" />
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596489885874">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom" timestamp="1596491695390">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885874" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1596490054860" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.960@0.23.1680.960" timestamp="1595852538957" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596489885872">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/0.23.1680.963@0.23.1680.963" timestamp="1596491695390" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center" timestamp="1596491695389">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885872" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1596490054858" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.960@0.23.1680.960" timestamp="1595852538955" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596489885871">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/0.23.1680.963@0.23.1680.963" timestamp="1596491695389" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left" timestamp="1596491695389">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885871" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1596490054857" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.960@0.23.1680.960" timestamp="1595852538955" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596489885873">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/0.23.1680.963@0.23.1680.963" timestamp="1596491695389" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right" timestamp="1596491695390">
+      <screen x="0" y="23" width="1680" height="963" />
     </state>
-    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596489885873" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1596490054859" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.960@0.23.1680.960" timestamp="1595852538956" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/0.23.1680.963@0.23.1680.963" timestamp="1596491695390" />
     <state width="600" height="400" key="NewXcodeProjectWizard" timestamp="1595796540487">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -233,10 +289,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="608" y="234" key="RollbackChangesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595776803041" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596489597020">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1596490104702">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596489597020" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1596490104702" />
     <state x="538" y="280" width="604" height="490" key="find.popup" timestamp="1596488913263">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
